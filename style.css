@@ -14,6 +14,7 @@ body {
   color: white;
   height: 1218px;
   padding: 20px;
+  position: relative;
   width: 563px;
 }
 .top-container {
@@ -71,7 +72,15 @@ body {
     filter: brightness(120%);
 }
 .bottom{
-    
+    width: 200px;
+    height: 5px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom:10px ;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 
